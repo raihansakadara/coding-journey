@@ -8,16 +8,10 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm install lucia
+npm install @lucia-auth/adapter-drizzle
+npm install ws
+npm install @neondatabase/serverless
 ```
 
 ## Development Server
